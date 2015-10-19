@@ -1,0 +1,87 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	text-align: center;
+	margin: 0;
+}
+h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 5em;
+	color: #ffffff;
+}
+span {
+	color: #FFEB3B;
+} 
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+#slogan {
+	font-size: 2em;
+	font-style: italic;
+}
+#seevlogo{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#signup {
+	margin: auto;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(00,00,00,0.3);
+    display: inline-flex;
+}
+#signup h2 {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: helvetica, sans-serif;
+	font-size: 1.5em;
+	color: #ffffff;
+}
+#about {
+	width: 700px;
+    height: 380px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    background-color: rgba(00,00,00,0);
+    text-align: left;
+    padding: 10px;
+    font-family: helvetica, sans-serif;
+    color: #ffffff;
+}
+.keypoints {
+	font-size: 1.5em;
+	list-style-type: none;
+	padding-top: 5px;
+}
+#content {
+	height: auto;
+	width: 100%;
+	background-color: #FAFAFA;
+	color: #424242;
+}
+.summaryinfo {
+	font-family: helvetica, sans-serif;
+	vertical-align: top;
+	padding: 20px;
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	margin: 10px;
+}
+#contact {
+	margin-top: 0px;
+	padding-top: 16px;
+}
+footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background-color: rgba(00,00,00,0.2);
+   display: ;
+   color: #ffffff;
+}
