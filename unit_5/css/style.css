@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,500,400);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	text-align: center;
+	margin: 0;
+}
+nav {
+	font-family: 'Roboto', sans-serif;
+	background: #E8C66A;
+	height: 2em;
+	text-align: right;
+	padding: 10px 25px 0 0;
+}
+header {
+	background: #FFED74;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 5em;
+	color: #ffffff;
+}
+span {
+	color: #FFEB3B;
+} 
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+section {
+	background: #FFE2B8;
+}
+aside {
+	max-height: 350px;
+	width: 100%;
+	border-color: #FFC675;
+}
+article {
+	height: 400px;
+	background: #E89C6C;
+}
+div {
+	background: #FFE2B8;
+}
+footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background: #FF957E;
+   display: ;
+   color: #ffffff;
+}
+#slogan {
+	font-family: helvetica, sans-serif;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+}
+#seevlogo{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#signup {
+	margin: auto;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(00,00,00,0.3);
+    display: inline-flex;
+}
+#signup, h2 {
+	font-family: helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	color: #ffffff;
+}
+#about {
+	width: 50%;
+	max-width: 650px;
+    height: 380px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    text-align: left;
+    padding: 1em;
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    line-height: 1.5em;
+}
+.keypoints {
+	font-size: 1.5em;
+	list-style-type: none;
+	padding-top: 5px;
+}
+main {
+	height: auto;
+	width: 100%;
+	background-color: #FAFAFA;
+	color: #424242;
+	font-family: 'Lora', serif;
+	line-height: 1.5em;
+}
+.summaryinfo {
+	font-family: helvetica, sans-serif;
+	vertical-align: top;
+	padding: 20px;
+	height: 400px;
+	width: 300px;
+	display: inline-block;
+	margin: 10px;
+}
+#contact {
+	margin-top: 0px;
+	padding-top: 16px;
+}
+
