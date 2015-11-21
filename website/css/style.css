@@ -28,9 +28,8 @@ a {
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
-	width: 100%;
 	color: #ffffff;
-	
+	width: auto;
 }
 .rw-words-1 span{
 	animation: rotateWordsFirst 15s linear infinite 0s;
@@ -44,7 +43,7 @@ a {
 .rw-words-1 span:nth-child(3) { 
     -webkit-animation-delay: 15s; 
 	-ms-animation-delay: 15s; 
-	animation-delay: 20s; 
+	animation-delay: 10s; 
 	color: #ffffff;	
 }
 @keyframes rotateWordsFirst {
@@ -56,9 +55,6 @@ a {
 }
 @keyframes rotateWordsSecond {
     0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
-    10% { opacity: 0.3; width: 0px; }
-	20% { opacity: 1; width: 100%; }
-    27% { opacity: 0; width: 100%; }
     100% { opacity: 0; }
 }
 header {
@@ -75,6 +71,7 @@ header {
 span {
 	font-weight: 800;
 	font-size: 2em;
+	max-width: auto;
 }
 h2 {
 	display: inline;
