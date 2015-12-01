@@ -102,3 +102,9 @@ footer {
 		width: 100%;
 	}
 }
+@media (max-width: 480px) {
+	header {
+		padding: 100px 0px;
+		height: 100px;
+	}
+}
