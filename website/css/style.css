@@ -4,7 +4,7 @@ nav {
 	text-align: right;
 	padding: 15px 40px 0px 10px;
 }
-#container {
+.container {
 	width: 85%;
 	margin: auto;
 }

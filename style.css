@@ -1,0 +1,38 @@
+
+#bg {
+     width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #EEE;
+}
+
+#trigger {
+    position: absolute;
+    width: 200px;
+    height: 136px;
+    top: 50%;
+    left: 50%;
+    margin: -68px 0 0 -100px;
+    background: #333;
+    z-index: 2;
+}
+@keyframes example {
+    0%   {background-color: red; transform:skew(0deg,0deg)}
+    25%  {background-color: yellow; transform:skew(1deg,1deg)}
+    50%  {background-color: blue; transform:skew(-1deg,-1deg)}
+    100% {background-color: green; transform:skew(0deg,0deg)}
+}
+/* KEY */
+#trigger:hover{
+    width: 85%;
+    height: 85%;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}​
+#test {
+	width: 100%;
+	height: 300px;
+	margin: 100px auto;
+}

@@ -1,0 +1,30 @@
+h1 {
+	font-family: helvetica;
+	color: #212121;
+}
+.container {
+	width: 1366px;
+	margin: auto;
+}
+nav {
+	height: 50px;
+	background-color: #607D8B;
+}
+header {
+	height: 400px;
+	background-color: #ECEFF1;
+}
+.info {
+	height: 400px;
+	width: 100%;
+}
+#staticimage {
+	z-index: -1;
+	height: 200px;
+	width: 100%;
+}
+#staticimage img {
+	position: fixed;
+    bottom: 0;
+    right: 0;
+}

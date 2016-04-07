@@ -1,0 +1,71 @@
+
+
+h2
+{
+    font-family: helvetica;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #212121;
+}
+h1 {
+    font-family: helvetica;
+    font-weight: 600;
+    font-size: 2em;
+}
+form {
+	padding: 20px;
+}
+.container
+{
+    width: 1366px;
+    margin: auto;
+}
+
+nav
+{
+    height: 40px;
+    background-color: #607D8B;
+    padding: 20px 0px 0px 50px;
+}
+
+header
+{
+    height: 400px;
+    background-color: #ECEFF1;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 1366px;
+}
+
+.info
+{
+    height: 350px;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#staticimage
+{
+    z-index: -1;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+}
+
+footer
+{
+    height: 150px;
+    background: #616161;
+}
+
+.column
+{
+    width: 250px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+}
+

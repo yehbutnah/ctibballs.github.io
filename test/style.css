@@ -1,0 +1,31 @@
+div {
+	width: 33%;
+	height: 300px;
+	border: 2px solid black;
+	display: inline-block;
+}
+main {
+	width: 90%;
+	margin: auto;
+}
+
+#test {
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    background: #F44336;
+}
+#test:hover {
+		border: 10px solid black;
+		-webkit-transform: rotate(180deg); /* Safari */
+    	transform: rotate(180deg);
+    	background-color: rgba(0, 0, 0, 0.9);
+}
+#testing {
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+#testing:hover {
+	-webkit-transform: scalex(2); /* Safari */
+    transform: scalex(2) translate(25%,0);
+
+}
