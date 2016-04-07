@@ -32,7 +32,6 @@ nav
     height: 40px;
     background-color: #607D8B;
     padding: 1px 0px 0px 50px;
-    z-index: 2;
 }
 
 header
@@ -47,19 +46,18 @@ header
 
 .info
 {
-    height: 500px;
+    height: 550px;
     width: 100%;
     padding-top: 50px;
     text-align: center;
 }
 
-.staticimage
+#staticimage
 {
+    z-index: -1;
     height: 200px;
- 	background-size: cover;
- 	background-position: center center;
-    background-image: url("../images/grass.jpg");
-    background-attachment: fixed;
+    width: 100%;
+    position: absolute;
 }
 
 footer
@@ -83,10 +81,4 @@ footer
 }
 #emailinput {
     width: 250px;
-}
-#amazing {
- 	text-align: center;
-	padding-top: 80px;
-    font-size: 2.5em;
-    color: #FAFAFA;
 }
