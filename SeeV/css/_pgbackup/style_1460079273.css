@@ -40,13 +40,14 @@ header
     height: 400px;
     background-color: #ECEFF1;
     text-align: center;
-	padding-top: 100px;
+    display: table-cell;
+    vertical-align: middle;
     width: 100%;
 }
 
 .info
 {
-    height: auto;
+    height: 500px;
     width: 100%;
     padding-top: 50px;
     text-align: center;
@@ -90,16 +91,8 @@ footer
     color: #FAFAFA;
 }
 @media screen and (max-width: 1366px) {
- 	.info {
-     	width: 100%;   
+ 	.container {
+     	max-width: 100%;   
     }
-    header {
-     	width: 100%;   
-    }
-    .container {
-        width: 100%
-    }
-    h1 {
-     	padding-top: 10px;   
-    }
+    
 }
