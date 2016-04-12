@@ -61,16 +61,16 @@ footer
     background: #616161;
 }
 .column {
-    width: 280px;
+    width: 300px;
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     height: 450px;
 }
 .icon {
-    height: 150px;
-    width: 150px;
-    border-radius: 75px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
     background: #76FF03;
     margin: auto;
 }
@@ -83,7 +83,7 @@ footer
     font-size: 2.5em;
     color: #FAFAFA;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1366px) {
  	.info {
      	width: 100%;   
     }
