@@ -1,0 +1,27 @@
+nav {
+ 	background: #0000ff;   
+}
+.tile {
+ 	background: #ffffff;
+    padding: 5px 5px;
+    margin: 10px;
+}
+.seev-gray {
+ 	background: #b3b3b3;     
+}
+.seev-green {
+ 	color: #ffffff;  
+}
+label {
+ 	color: #ffffff;   
+}
+.seev-black {
+ 	background: #000026;   
+}
+.card {
+ 	max-width: 800px;
+    margin: 10px auto;
+}
+li {
+ 	padding: 5px 10px;   
+}

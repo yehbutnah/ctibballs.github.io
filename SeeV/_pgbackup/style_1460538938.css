@@ -1,0 +1,14 @@
+nav {
+ 	background:#0000FF;
+    text-align: right;
+    padding: 50px 60px
+}
+header{
+ 	background:#0000FF;
+    height: 750px;
+}
+.btn-sign-up {
+ 	background: #00E8AA;
+    color: #E6E6E6;
+    border-radius: 25px;
+}

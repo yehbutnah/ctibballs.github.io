@@ -1,0 +1,12 @@
+nav {
+ 	background:#0000FF;   
+}
+header{
+ 	background:#0000FF;
+    height: 800px;
+}
+.btn-sign-up {
+ 	background: #00E8AA;
+    color: #E6E6E6;
+    border-radius: 25px;
+}

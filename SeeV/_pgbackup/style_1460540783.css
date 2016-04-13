@@ -12,34 +12,11 @@ nav a:hover {
  	text-decoration: none;
     color: #B3B3B3;
 }
-nav h2 {
-    display: inline-block;
-    float: left;
-    margin: 0px 0px 0px 100px;
-    color: #ffffff;
-    font-size: 3.4em;
-    font-weight: 700;
-}
 header{
  	background:#0000FF;
-    height: 700px;
+    height: 750px;
     text-align: center;
     margin-top: 0px;
-}
-.info {
-    background: #E6E6E6;
- 	height: 400px;
-    text-align: center;
-    box-shadow: 0 1px 0 #B3B3B3;
-}
-#job-market {
- 	background: #00E8AA;
-    height: 500px;
-    text-align: center;
-}
-#job-market h2{
-    padding-top: 200px;
-    font-size: 4em;
 }
 .btn-sign-up {
  	background: #00E8AA;

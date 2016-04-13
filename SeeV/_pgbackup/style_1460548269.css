@@ -30,16 +30,15 @@ header{
     background: #E6E6E6;
  	height: 400px;
     text-align: center;
-    box-shadow: 0 1px 0 #B3B3B3;
+    max-width: 370px;
+    margin: 20px 15px;
+    box-shadow: 0px 1px 0px #B3B3B3;
 }
-#job-market {
- 	background: #00E8AA;
-    height: 500px;
-    text-align: center;
+section {
+ 	margin: auto;   
 }
-#job-market h2{
-    padding-top: 200px;
-    font-size: 4em;
+.row {
+ 	width: auto;   
 }
 .btn-sign-up {
  	background: #00E8AA;
