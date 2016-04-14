@@ -15,12 +15,6 @@ nav a:hover {
 .heavy {
  	font-weight: 700; 
 }
-.seev-blue {
- 	color: #0000FF;   
-}
-.inline {
- 	display: inline-block;   
-}
 nav h2 {
     display: inline-block;
 	float: left;
@@ -31,43 +25,20 @@ nav h2 {
 }
 .search {
     background: #0000FF;
-    border-radius: 40px;
-    border: 0px;
+    border-radius: 30px;
     height: 40px;
     color: #ffffff;
-    margin: 0px 0px 0px 50px;
-}
-.search:hover { 
- 	background: #00E8AA;
-    color: #000026;
+    margin: 0px 0px 0px 50px
 }
 header {
  	min-height: 400px;
     background: #E6E6E6;
     border-bottom: solid 1px #B3B3B3;
 }
-header img {
- 	height: 300px;
-    width: 300px;
-    float: left;
-    margin: 80px 20px 0px 0px;
-}
-header h2 {
-    color: #0000FF;
-    margin: 120px 0px 40px 0px;
-}
-#current {
- 	padding: 20px 20px 0px 0px;
-    font-size: .9em;
-}
-#education {
- 	padding: 0px 7px 0px 0px;
-    font-size: .9em;
-}
 #profile-complete {
  	height: 70px;
     background:#00E8AA;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 230px;
 }
 #profile-complete h4 {
  	font-size: 1.5em;
@@ -76,7 +47,7 @@ header h2 {
 }
 #profile-complete a {
  	float: right;
-    padding: 5px 0px 0px 0px;
+    padding: 5px 100px 0px 0px;
     text-decoration: underline;
     color: #000026;
 }

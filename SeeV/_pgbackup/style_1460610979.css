@@ -37,10 +37,6 @@ nav h2 {
     color: #ffffff;
     margin: 0px 0px 0px 50px;
 }
-.search:hover { 
- 	background: #00E8AA;
-    color: #000026;
-}
 header {
  	min-height: 400px;
     background: #E6E6E6;

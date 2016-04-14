@@ -32,10 +32,10 @@
             <h1>Making job seeking good n stuff.</h1>
             <p>
                 Sign up to recieve updates.</p>
-            <button type="button" class="btn btn-jobseeker-sign-up" data-toggle="modal" data-target="#modal1">
+            <button type="button" class="btn btn-jobseeker-sign-up" onclick="#modal1">
                 JOBSEEKER
 </button>
-            <button type="button" class="btn btn-employer-sign-up" data-toggle="modal" data-target="#modal1">
+            <button type="button" class="btn btn-employer-sign-up">
                 EMPLOYER
 </button>
             <div class="modal fade pg-show-modal" id="modal1" tabindex="-1" role="dialog" aria-hidden="true"> 
@@ -43,17 +43,16 @@
                     <div class="modal-content"> 
                         <div class="modal-header"> 
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                             
-                            <h4 class="modal-title"></h4> 
+                            <h4 class="modal-title">sign up</h4> 
                         </div>                         
-                        <div class="modal-body"> 
-                            <div class="form-group">
-                                <label class="control-label">Sign up to recieve updates.</label>
-                                <input type="text" class="form-control" placeholder="email@example.com"> 
-                            </div>
+                        <div class="modal-body">
+                            <form>
+                                <p class="form-control-static">email@example.com</p>
+                            </form>                             
                         </div>                         
                         <div class="modal-footer"> 
-                            <button type="button" class="btn btn-employer-sign-up" id="modal-close" data-dismiss="modal">Close</button>                             
-                            <button type="button" class="btn btn-sign-up" id="modal-save">Save changes</button>                             
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                             
+                            <button type="button" class="btn btn-primary">Save changes</button>                             
                         </div>                         
                     </div>                     
                 </div>                 
@@ -62,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 info">
-                    <h3>Improve your skills</h3> 
+                    <h3>improve your skills</h3> 
                     <p>Recieve training as well as tips and tricksto help you become the best you can be in your position.</p> 
                 </div>
                 <div class="col-md-4 info">
@@ -70,7 +69,7 @@
                     <p>Using SeeV's search functionality employers can find the right canidate in seconds.</p> 
                 </div>
                 <div class="col-md-4 info">
-                    <h3>Improve your skills</h3> 
+                    <h3>improve your skills</h3> 
                     <p>No longer will recruitment agencies be able to take money out of your pockets. Earn more while your employer saves.</p> 
                 </div>
             </div>             

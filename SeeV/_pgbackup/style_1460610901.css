@@ -31,15 +31,11 @@ nav h2 {
 }
 .search {
     background: #0000FF;
-    border-radius: 40px;
+    border-radius: 30px;
     border: 0px;
     height: 40px;
     color: #ffffff;
     margin: 0px 0px 0px 50px;
-}
-.search:hover { 
- 	background: #00E8AA;
-    color: #000026;
 }
 header {
  	min-height: 400px;
