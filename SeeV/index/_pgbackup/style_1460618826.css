@@ -78,9 +78,6 @@ header{
 .btn-employer-sign-up:hover {
     color: #00E8AA;   
 }
-.modal-content {
- 	background: #E6E6E6;   
-}
 #modal-close {
     margin: 20px 10px;   
 }
@@ -101,14 +98,5 @@ header p {
     color: #000026;   
 }
 .drop-menu-list {
- 	display: block;
-    text-align: center;
-    margin: auto;
-}
-#drop-menu {
- 	display: none;
-    margin-top: 50px;
-}
-#hamburger {
-	margin: auto;
+ 	width: 100%; 	   
 }

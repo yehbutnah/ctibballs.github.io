@@ -78,9 +78,6 @@ header{
 .btn-employer-sign-up:hover {
     color: #00E8AA;   
 }
-.modal-content {
- 	background: #E6E6E6;   
-}
 #modal-close {
     margin: 20px 10px;   
 }
