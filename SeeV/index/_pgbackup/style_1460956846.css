@@ -42,23 +42,16 @@ header{
 }
 #how-it-works {
     background: #E6E6E6;
-    min-height: 500px;
+    height: 500px;
     text-align: center;
 }
 #how-it-works h2 {
  	margin: 0px;
-    padding-top: 100px;
+    padding-top 100px;
 }
 #job-market h2{
     padding-top: 200px;
     font-size: 4em;
-}
-.how-it-works {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    padding: 250px 5px 0px 0px;
-    height: 400px;
-    text-align: center;
 }
 .btn-sign-up {
     background: #00E8AA;
