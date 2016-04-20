@@ -1,0 +1,131 @@
+nav {
+    background:#0000FF;
+    text-align: right;
+    padding: 50px 60px 0px 0px;
+}
+nav a {
+    padding: 0px 10px; 
+    color: #ffffff;
+    font-size: 1.2em;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+nav h2 {
+    display: inline-block;
+    float: left;
+    margin: 0px 0px 0px 100px;
+    color: #ffffff;
+    font-size: 3.4em;
+    font-weight: 700;
+}
+header{
+    background:#0000FF;
+    min-height: 700px;
+    text-align: center;
+    margin-top: 0px;
+}
+.info {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 250px 5px 0px 0px;
+    background: #E6E6E6;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 1px 0 #B3B3B3;
+}
+#job-market {
+    background: #00E8AA;
+    height: 500px;
+    text-align: center;
+}
+#how-it-works {
+    background: #E6E6E6;
+    min-height: 500px;
+    text-align: center;
+}
+#how-it-works h2 {
+ 	margin: 0px;
+    padding-top: 100px;
+}
+#job-market h2{
+    padding-top: 200px;
+    font-size: 4em;
+}
+.how-it-works {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 250px 5px 0px 0px;
+    height: 400px;
+    text-align: center;
+}
+.btn-sign-up {
+    background: #00E8AA;
+    color: #000026;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+.btn-sign-up:hover {
+    color: #ffffff;   
+}
+.btn-jobseeker-sign-up {
+    background: #00E8AA;
+    color: #000026;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 50px 50px;
+    padding: 15px 40px;
+}
+.btn-jobseeker-sign-up:hover {
+    color: #ffffff;   
+}
+.btn-employer-sign-up {
+    background: #000026;
+    color: #FFFFFF;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 50px 50px;
+    padding: 15px 40px;
+}
+.btn-employer-sign-up:hover {
+    color: #00E8AA;   
+}
+.modal-content {
+ 	background: #E6E6E6;   
+}
+#modal-close {
+    margin: 20px 10px;   
+}
+#modal-save {
+    margin: 20px 10px;
+}
+header h1 {
+    padding: 200px 0px 50px 0px;
+    font-size: 3.5em;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+header p {
+    font-size: 1.7em;
+    color: #FFFFFF;
+}
+.modal p {
+    color: #000026;   
+}
+.drop-menu-list {
+ 	display: block;
+    text-align: center;
+    margin: auto;
+}
+#drop-menu {
+ 	display: none;
+    margin-top: 50px;
+}
+#hamburger {
+	margin: auto;
+}

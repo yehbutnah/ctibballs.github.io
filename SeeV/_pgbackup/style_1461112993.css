@@ -39,8 +39,7 @@ nav h2 a {
     height: 40px;
     color: #ffffff;
     margin: 0px 0px 0px 50px;
-    padding: 10px 12px;
-    font-size: .9em;
+    padding: 8px 10px;
 }
 .search:hover { 
  	background: #00E8AA;
