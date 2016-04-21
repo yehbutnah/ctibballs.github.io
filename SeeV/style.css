@@ -1,119 +1,271 @@
-nav {
- 	background:#E6E6E6;
+nav
+{
+    background: #E6E6E6;
     text-align: right;
     padding: 50px 60px 0px 0px;
 }
-nav a {
- 	padding: 0px 10px; 
+nav a
+{
+    padding: 0px 10px;
     color: #000026;
     font-size: 1.2em;
 }
-nav a:hover {
- 	text-decoration: none;
-    color: #0000FF;
-}
-.heavy {
- 	font-weight: 700; 
-}
-.seev-blue {
- 	color: #0000FF;   
-}
-.inline {
- 	display: inline-block;   
-}
-nav h2 {
+nav h2
+{
     display: inline-block;
-	float: left;
+    float: left;
     margin: 0px 0px 0px 100px;
-    font-size: 2.85em;
+    color: #0000FF;
+    font-size: 3.4em;
     font-weight: 700;
 }
-nav h2 a {
+nav a:hover
+{
+    text-decoration: none;
     color: #0000FF;
-    padding: 0px;
 }
-.search {
+.search
+{
     background: #0000FF;
     border-radius: 40px;
     border: 0px;
     height: 40px;
     color: #ffffff;
     margin: 0px 0px 0px 50px;
-    padding: 10px 12px;
-    font-size: .9em;
 }
-.search:hover { 
- 	background: #00E8AA;
+.search:hover
+{
+    background: #00E8AA;
     color: #000026;
 }
-header {
- 	min-height: 400px;
+
+header p {
+    font-size: 1.7em;
+    color: #FFFFFF;
+}
+header
+{
+    min-height: 400px;
     background: #E6E6E6;
     border-bottom: solid 1px #B3B3B3;
 }
-header img {
- 	height: 300px;
+header img
+{
+    height: 300px;
     width: 300px;
     float: left;
     margin: 80px 20px 0px 0px;
 }
-header h2 {
+header h1 {
+    padding: 200px 0px 50px 0px;
+    font-size: 3.5em;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+header h2
+{
     color: #0000FF;
     margin: 120px 0px 40px 0px;
 }
-#current {
- 	padding: 20px 20px 0px 0px;
+.index_nav {
+    background:#0000FF;
+    text-align: right;
+    padding: 50px 60px 0px 0px;
+}
+.index_nav a {
+    padding: 0px 10px; 
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.index_nav a:hover {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+.index_nav h2 {
+    display: inline-block;
+    float: left;
+    margin: 0px 0px 0px 100px;
+    color: #ffffff;
+    font-size: 3.4em;
+    font-weight: 700;
+}
+.index_header{
+    background:#0000FF;
+    min-height: 700px;
+    text-align: center;
+    margin-top: 0px;
+}
+.info {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 250px 5px 0px 0px;
+    background: #E6E6E6;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 1px 0 #B3B3B3;
+}
+#job-market {
+    background: #00E8AA;
+    height: 500px;
+    text-align: center;
+}
+#how-it-works {
+    background: #E6E6E6;
+    min-height: 500px;
+    text-align: center;
+}
+#how-it-works h2 {
+ 	margin: 0px;
+    padding-top: 100px;
+}
+#job-market h2{
+    padding-top: 200px;
+    font-size: 4em;
+}
+.how-it-works {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 250px 5px 0px 0px;
+    height: 400px;
+    text-align: center;
+}
+.btn-sign-up {
+    background: #00E8AA;
+    color: #000026;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+.btn-sign-up:hover {
+    color: #ffffff;   
+}
+.btn-jobseeker-sign-up {
+    background: #00E8AA;
+    color: #000026;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 50px 50px;
+    padding: 15px 40px;
+}
+.btn-jobseeker-sign-up:hover {
+    color: #ffffff;   
+}
+.btn-employer-sign-up {
+    background: #000026;
+    color: #FFFFFF;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 50px 50px;
+    padding: 15px 40px;
+}
+.btn-employer-sign-up:hover {
+    color: #00E8AA;   
+}
+.modal-content {
+ 	background: #E6E6E6;   
+}
+#modal-close {
+    margin: 20px 10px;   
+}
+#modal-save {
+    margin: 20px 10px;
+}
+
+.modal p {
+    color: #000026;   
+}
+.drop-menu-list {
+ 	display: block;
+    text-align: center;
+    margin: auto;
+}
+#drop-menu {
+ 	display: none;
+    margin-top: 50px;
+}
+#hamburger {
+	margin: auto;
+}
+
+
+.heavy
+{
+    font-weight: 700;
+}
+.seev-blue
+{
+    color: #0000FF;
+}
+
+.inline
+{
+    display: inline-block;
+}
+#current
+{
+    padding: 20px 20px 0px 0px;
     font-size: .9em;
 }
-#education {
- 	padding: 0px 7px 0px 0px;
+
+#education
+{
+    padding: 0px 7px 0px 0px;
     font-size: .9em;
 }
-#profile-complete {
- 	height: 70px;
-    background:#00E8AA;
+
+#profile-complete
+{
+    height: 70px;
+    background: #00E8AA;
     padding: 20px 0px 0px 0px;
 }
-#profile-complete h4 {
- 	font-size: 1.5em;
+
+#profile-complete h4
+{
+    font-size: 1.5em;
     color: #000026;
     display: inline;
 }
-#profile-complete a {
- 	float: right;
+
+#profile-complete a
+{
+    float: right;
     padding: 5px 0px 0px 0px;
     text-decoration: underline;
     color: #000026;
 }
-.card {
- 	height: 250px;
+
+.card
+{
     max-width: 850px;
     margin: 20px 5px 20px 5px;
-    background: #E6E6E6; 
+    background: #E6E6E6;
+    min-height: 250px;
+    padding-bottom: 10px;
 }
-.card-title {
- 	padding: 20px 20px 20px 20px; 
+
+.card-title
+{
+    padding: 20px 0px 20px 20px;
 }
-.card-title a {
- 	font-size: .8em   
-}
-.card-info {
+
+.card-info
+{
     font-weight: 700;
 }
-.card-description {
-    
+
+.card-description
+{
 }
-.card p {
- 	padding: 0px 0px 0px 20px;   
+
+.card p
+{
+    padding: 0px 0px 0px 20px;
 }
-.add {
- 	text-align: center;
-    border: dashed 1px #00E8AA;
-    padding: 10px 0px 0px 0px;
-    width: 95%;
-    margin: auto;
+.edit_profile {
+ 	    margin: 80px 50px 0px 0px;   
 }
-.edit {
- 	float: right;
-    display: inline;
-}
+

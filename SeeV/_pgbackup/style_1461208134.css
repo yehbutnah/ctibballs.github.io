@@ -1,18 +1,18 @@
-.index_nav {
+nav {
     background:#0000FF;
     text-align: right;
     padding: 50px 60px 0px 0px;
 }
-.index_nav a {
+nav a {
     padding: 0px 10px; 
     color: #ffffff;
     font-size: 1.2em;
 }
-.index_nav a:hover {
+nav a:hover {
     text-decoration: none;
     color: #B3B3B3;
 }
-.index_nav h2 {
+nav h2 {
     display: inline-block;
     float: left;
     margin: 0px 0px 0px 100px;

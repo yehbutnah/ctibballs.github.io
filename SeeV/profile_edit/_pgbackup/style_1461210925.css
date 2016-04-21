@@ -44,6 +44,17 @@ nav h2
     font-size: 3.4em;
     font-weight: 700;
 }
+
+.search
+{
+    background: #0000FF;
+    border-radius: 40px;
+    border: 0px;
+    height: 40px;
+    color: #ffffff;
+    margin: 0px 0px 0px 50px;
+}
+
 .search:hover
 {
     background: #00E8AA;
@@ -218,7 +229,7 @@ header h2
 
 .card-title
 {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 0px 20px 20px;
 }
 
 .card-info
@@ -237,20 +248,4 @@ header h2
 .edit_profile {
  	    margin: 80px 50px 0px 0px;   
 }
-.add {
- 	text-align: center;
-    border: dashed 1px #00E8AA;
-    padding: 10px 0px 0px 0px;
-    width: 95%;
-    margin: auto;
-}
-.search {
-    background: #0000FF;
-    border-radius: 40px;
-    border: 0px;
-    height: 40px;
-    color: #ffffff;
-    margin: 0px 0px 0px 50px;
-    padding: 10px 12px;
-    font-size: .9em;
-}
+

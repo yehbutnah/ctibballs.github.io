@@ -44,6 +44,17 @@ nav h2
     font-size: 3.4em;
     font-weight: 700;
 }
+
+.search
+{
+    background: #0000FF;
+    border-radius: 40px;
+    border: 0px;
+    height: 40px;
+    color: #ffffff;
+    margin: 0px 0px 0px 50px;
+}
+
 .search:hover
 {
     background: #00E8AA;
@@ -136,121 +147,3 @@ header h2
  	    margin: 80px 50px 0px 0px;   
 }
 
-.search
-{
-    background: #0000FF;
-    border-radius: 40px;
-    border: 0px;
-    height: 40px;
-    color: #ffffff;
-    margin: 0px 0px 0px 50px;
-}
-
-.search:hover
-{
-    background: #00E8AA;
-    color: #000026;
-}
-
-header
-{
-    min-height: 400px;
-    background: #E6E6E6;
-    border-bottom: solid 1px #B3B3B3;
-}
-
-header img
-{
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin: 80px 20px 0px 0px;
-}
-
-header h2
-{
-    color: #0000FF;
-    margin: 120px 0px 40px 0px;
-}
-
-#current
-{
-    padding: 20px 20px 0px 0px;
-    font-size: .9em;
-}
-
-#education
-{
-    padding: 0px 7px 0px 0px;
-    font-size: .9em;
-}
-
-#profile-complete
-{
-    height: 70px;
-    background: #00E8AA;
-    padding: 20px 0px 0px 0px;
-}
-
-#profile-complete h4
-{
-    font-size: 1.5em;
-    color: #000026;
-    display: inline;
-}
-
-#profile-complete a
-{
-    float: right;
-    padding: 5px 0px 0px 0px;
-    text-decoration: underline;
-    color: #000026;
-}
-
-.card
-{
-    max-width: 850px;
-    margin: 20px 5px 20px 5px;
-    background: #E6E6E6;
-    min-height: 250px;
-    padding-bottom: 10px;
-}
-
-.card-title
-{
-    padding: 20px 20px 20px 20px;
-}
-
-.card-info
-{
-    font-weight: 700;
-}
-
-.card-description
-{
-}
-
-.card p
-{
-    padding: 0px 0px 0px 20px;
-}
-.edit_profile {
- 	    margin: 80px 50px 0px 0px;   
-}
-.add {
- 	text-align: center;
-    border: dashed 1px #00E8AA;
-    padding: 10px 0px 0px 0px;
-    width: 95%;
-    margin: auto;
-}
-.search {
-    background: #0000FF;
-    border-radius: 40px;
-    border: 0px;
-    height: 40px;
-    color: #ffffff;
-    margin: 0px 0px 0px 50px;
-    padding: 10px 12px;
-    font-size: .9em;
-}
