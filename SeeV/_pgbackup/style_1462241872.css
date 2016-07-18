@@ -4,13 +4,6 @@ nav
     text-align: right;
     padding: 50px 60px 0px 0px;
 }
-footer {
- 	background: #000026;
-    min-height: 400px;
-    margin: 0;
-    padding: 50px 0px 0px 0px;
-    color: #ffffff;
-}
 nav a
 {
     padding: 0px 10px;
@@ -102,15 +95,11 @@ header h2
     text-align: center;
     margin-top: 0px;
 }
-.info-row {
- 	width: 100%; 
-    background: #E6E6E6;
-}
 .info {
     margin-top: 50px;
     margin-bottom: 30px;
     padding: 250px 5px 0px 0px;
-    background: #B3B3B3;
+    background: #E6E6E6;
     height: 400px;
     text-align: center;
     box-shadow: 0 1px 0 #B3B3B3;
@@ -120,16 +109,14 @@ header h2
     height: 500px;
     text-align: center;
 }
-.where-is-seev {
-    margin: 0px;
-    background: #0000FF;
+#how-it-works {
+    background: #E6E6E6;
     min-height: 500px;
-    padding: 150px 0px 1px 200px;
-    
+    text-align: center;
 }
-.where-is-seev h2 {
-    color: #ffffff;
-    line-height: 1.5em;
+#how-it-works h2 {
+ 	margin: 0px;
+    padding-top: 100px;
 }
 #job-market h2{
     padding-top: 200px;
@@ -142,7 +129,6 @@ header h2
     height: 400px;
     text-align: center;
 }
-
 .btn-sign-up {
     background: #00E8AA;
     color: #000026;
@@ -270,6 +256,11 @@ header h2
 {
     font-weight: 700;
 }
+
+.card-description
+{
+}
+
 .card p
 {
     padding: 0px 0px 0px 20px;
@@ -277,49 +268,4 @@ header h2
 .edit_profile {
  	    margin: 80px 50px 0px 0px;   
 }
-.for-all {
- 	height: 400px;
-    width: 100%;
-}
-.light {
- 	background: #ffffff;   
-}
-.dark {
- 	background: #E6E6E6;   
-}
-.find-city {
-    border-color: #000026;
- 	border-radius: 0px;   
-}
-.find-city-btn {
- 	color: #ffffff;
-    background: #000026;
-}
-.blue-btn {
- 	background: #0000FF;
-    color: #ffffff;
-}
-footer .btn-jobseeker-sign-up {
- 	margin: 50px 0px 50px 0px;   
-}
-footer .btn-employer-sign-up {
- 	margin: 50px 0px 50px 0px;   
-}
-footer h3 {
- 	color: #ffffff;
-    margin: 50px 0px;
-}
-.dropdown-footer {
- 	background: #000026;
-    border: 0px;
-    color: #ffffff;
-    width: 200px;
-    text-align: left;
-}
-.dropdown-footer:hover {
-    background: #000026;
-    color: #ffffff;
-}
-footer a {
-    color: #ffffff;
-}
+

@@ -9,7 +9,6 @@ footer {
     min-height: 400px;
     margin: 0;
     padding: 50px 0px 0px 0px;
-    color: #ffffff;
 }
 nav a
 {
@@ -315,11 +314,4 @@ footer h3 {
     color: #ffffff;
     width: 200px;
     text-align: left;
-}
-.dropdown-footer:hover {
-    background: #000026;
-    color: #ffffff;
-}
-footer a {
-    color: #ffffff;
 }

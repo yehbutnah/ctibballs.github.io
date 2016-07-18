@@ -1,0 +1,61 @@
+header {
+	min-height: 500px;
+	color: #ffffff;
+	text-align: center;
+}
+header h3 {
+	margin: 0;
+	padding: 1.46rem 0 1.168rem 0;
+	font-weight: 300;
+}
+nav {
+	background: #0000FF;
+	box-shadow: none;
+}
+nav .btn-sign-up {
+	margin: 1.5em !important;
+}
+footer {
+	min-height: 400px;
+	color: #ffffff;
+}
+.btn-sign-up {
+    background: #00E8AA;
+    color: #000026;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 12px 25px;
+    line-height: 1em;
+}
+.btn-sign-up:hover {
+    color: #ffffff;   
+}
+nav .brand-logo {
+	margin: .5em;
+	line-height: 1.5em;
+}
+.how-it-works {
+	min-height: 400px;
+}
+.contact-us {
+	min-height: 400px;
+}
+.contact-us-tile span {
+	text-decoration: underline;
+	text-decoration-color: #00E8AA;
+}
+.how-it-works h3,p{
+	text-align: center;
+}
+.green {
+	background: #00E8AA !important;
+}
+.blue {
+	background: #0000FF !important;
+}
+.black {
+	background: #000026 !important;
+}
+.card-panel {
+	height: 200px;
+}

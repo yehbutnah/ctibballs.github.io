@@ -135,6 +135,23 @@ header h2
 .edit_profile {
  	    margin: 80px 50px 0px 0px;   
 }
+
+.search
+{
+    background: #0000FF;
+    border-radius: 40px;
+    border: 0px;
+    height: 40px;
+    color: #ffffff;
+    margin: 0px 0px 0px 50px;
+}
+
+.search:hover
+{
+    background: #00E8AA;
+    color: #000026;
+}
+
 header
 {
     min-height: 400px;

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>SeeV</title>
+        <!-- Bootstrap core CSS -->
+        <link href="reset.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <nav class="index_nav">
+            <h2 href="#">
+                SeeV</h2>
+            <a href="#" class="glyphicon glyphicon-menu-hamburger visible-xs visible-sm" onclick="toggle_visibility('drop-menu');" id="hamburger"></a>
+            <div id="drop-menu">
+                <a href="#how-it-works" class="drop-menu-list">How it works</a>
+                <a href="#" class="drop-menu-list">FAQ</a>
+                <a href="profile_design.html" class="drop-menu-list">Login</a>
+            </div>
+            <a href="#how-it-works" class="hidden-sm hidden-xs">How it works</a>
+            <a href="#" class="hidden-sm hidden-xs">FAQ</a>
+            <a href="profile_design.html" class="hidden-sm hidden-xs">Login</a>
+            <button type="button" class="btn btn-sign-up hidden-sm hidden-xs">
+                SIGN UP
+</button>
+        </nav>
+        <header class="index_header">
+            <h1>Making job seeking good n stuff.</h1>
+            <p>
+                Sign up to recieve updates.</p>
+            <button type="button" class="btn btn-jobseeker-sign-up" data-toggle="modal" data-target="#modal1">
+                JOBSEEKER
+</button>
+            <button type="button" class="btn btn-employer-sign-up" data-toggle="modal" data-target="#modal1">
+                EMPLOYER
+</button>
+            <div class="modal fade pg-show-modal" id="modal1" tabindex="-1" role="dialog" aria-hidden="true" href="reset.css"> 
+                <div class="modal-dialog"> 
+                    <div class="modal-content"> 
+                        <div class="modal-header"> 
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                             
+                            <h4 class="modal-title"></h4> 
+                        </div>                         
+                        <div class="modal-body"> 
+                            <div class="form-group">
+                                <label class="control-label">Sign up to recieve updates.</label>
+                                <input type="text" class="form-control" placeholder="email@example.com"> 
+                            </div>
+                        </div>                         
+                        <div class="modal-footer"> 
+                            <button type="button" class="btn btn-employer-sign-up" id="modal-close" data-dismiss="modal">Close</button>                             
+                            <button type="button" class="btn btn-sign-up" id="modal-save">Submit</button>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>
+        </header>
+        <div class="info-row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info">
+                            <h3>Improve your skills</h3> 
+                            <p>Recieve training as well as tips and tricksto help you become the best you can be in your position.</p> 
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <h3>Get work faster</h3> 
+                            <p>Using SeeV's search functionality employers can find the right canidate in seconds.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <h3>Improve your skills</h3> 
+                            <p>No longer will recruitment agencies be able to take money out of your pockets. Earn more while your employer saves.</p>
+                        </div>
+                    </div>
+                </div>                 
+            </div>
+            <div class="for-all light">
+                <h3>Helping local business</h3>
+                <h2>
+                For the good of all</h2>
+                <p>
+               lorem</p>
+            </div>
+            <div class="for-all dark">
+                <h3>Helping local business</h3>
+                <h2>
+                For the good of all</h2>
+                <p>
+               lorem</p>
+            </div>
+        </div>
+        <div class="where-is-seev">
+            <h2>Seev is in <span>Sydney</span><br>and coming to a city near you.</h2>
+            <div class="col-lg-3">
+                <div class="input-group">
+                    <input type="text" class="form-control find-city" placeholder="Find a City">
+                    <span class="input-group-btn"><button class="btn btn-secondary find-city" type="submit">
+                            <span class="glyphicon glyphicon-arrow-right"></span>
+                        </button></span>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="../seev/index/js.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>

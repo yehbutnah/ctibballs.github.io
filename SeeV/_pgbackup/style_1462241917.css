@@ -4,13 +4,6 @@ nav
     text-align: right;
     padding: 50px 60px 0px 0px;
 }
-footer {
- 	background: #000026;
-    min-height: 400px;
-    margin: 0;
-    padding: 50px 0px 0px 0px;
-    color: #ffffff;
-}
 nav a
 {
     padding: 0px 10px;
@@ -124,7 +117,7 @@ header h2
     margin: 0px;
     background: #0000FF;
     min-height: 500px;
-    padding: 150px 0px 1px 200px;
+    padding: 150px 0px 0px 200px;
     
 }
 .where-is-seev h2 {
@@ -286,40 +279,4 @@ header h2
 }
 .dark {
  	background: #E6E6E6;   
-}
-.find-city {
-    border-color: #000026;
- 	border-radius: 0px;   
-}
-.find-city-btn {
- 	color: #ffffff;
-    background: #000026;
-}
-.blue-btn {
- 	background: #0000FF;
-    color: #ffffff;
-}
-footer .btn-jobseeker-sign-up {
- 	margin: 50px 0px 50px 0px;   
-}
-footer .btn-employer-sign-up {
- 	margin: 50px 0px 50px 0px;   
-}
-footer h3 {
- 	color: #ffffff;
-    margin: 50px 0px;
-}
-.dropdown-footer {
- 	background: #000026;
-    border: 0px;
-    color: #ffffff;
-    width: 200px;
-    text-align: left;
-}
-.dropdown-footer:hover {
-    background: #000026;
-    color: #ffffff;
-}
-footer a {
-    color: #ffffff;
 }
